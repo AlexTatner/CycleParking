@@ -40,7 +40,7 @@ const App: () => React$Node = () => {
        <MapView
       style={{ flex: 1 }}
       region={region}
-      onRegionChangeComplete={region => setRegion(region)}
+      // onRegionChangeComplete={region => setRegion(region)}
     >
       <Marker 
       coordinate={{ latitude: 51.5078788, longitude: -0.0877321 }}
